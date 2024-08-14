@@ -183,12 +183,13 @@ nav {
 
 .brands {
     background-color: #000000;
-    position: absolute;
-    top: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px 0;
+    position: relative;
+    z-index: 1;
 }
 
 .brands img {
@@ -196,4 +197,17 @@ nav {
 
 }
 
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.new-arrivals h2 {
+    font-family: 'Integral CF', sans-serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 
