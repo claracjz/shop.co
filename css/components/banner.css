@@ -1,0 +1,100 @@
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.banner-content .banner-left {
+    width: 50%;
+    margin-left: 50px;
+    max-width: 1200px;
+    position: absolute;
+
+}
+
+.banner-content h1 {
+    font-family: 'Integral CF', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #00000099;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.shop-now {
+    background-color: #000000;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 54px;
+    border-radius: 64px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #333333;
+}
+
+.banner .banner-content .banner-right .banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    padding: 20px 0;
+    margin: 30px 0; 
+}
+
+.stat-item {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.stat-item p {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.brands {
+    background-color: #000000;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    z-index: 1;
+
+}
+
+.brands img {
+    margin: 25px 30px;
+}

@@ -1,0 +1,6 @@
+@import './globals.css';
+
+@import './components/navbar.css';
+@import './components/promo-banner.css';
+@import './components/banner.css';
+@import './components/products.css'

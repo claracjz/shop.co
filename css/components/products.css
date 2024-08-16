@@ -1,0 +1,64 @@
+.products .products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.products h2 {
+    font-family: 'Integral CF', sans-serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.products .products-grid .product-item p {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.products .products-grid .product-item .rating {
+    display: flex;
+    align-items: center;
+}
+
+.products .products-grid .product-item .rating span {
+    margin-left: 13px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 14px;
+}
+
+.products .products-grid .product-item .rating .star-icon {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #FFE500;
+    font-size: 20px;
+}
+
+.products .products-grid .product-item .rating .star-icon::before {
+    content: "\2605";
+}
+
+.products .products-grid .product-item .rating .star-icon.active ~ .star-icon::before {
+    content: "\2606";
+}
+
+.products .products-grid .product-item .rating:hover ~ .star-icon::before {
+    content: "\2605";
+}
+
+.products .products-grid .product-item .rating .star-icon:hover ~ .star-icon::before {
+    content: "\2606";
+}
+
+.products .products-grid .product-item .price {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+
+
