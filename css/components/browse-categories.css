@@ -1,0 +1,35 @@
+.browse-categories {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #F0F0F0;
+    border-radius: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Integral CF', sans-serif;
+    font-size: 48px;
+    margin: 60px 0;
+}
+
+.styles-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.style-item {
+    transition: transform 0.3s ease;
+}
+
+.style-item img {
+    transition: transform 0.3s ease;
+}
+
+.style-item:hover img {
+    transform: scale(1.1);
+}
+

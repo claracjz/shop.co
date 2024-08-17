@@ -3,4 +3,5 @@
 @import './components/navbar.css';
 @import './components/promo-banner.css';
 @import './components/banner.css';
-@import './components/products.css'
+@import './components/products.css';
+@import './components/browse-categories.css'

@@ -9,7 +9,6 @@
     font-size: 48px;
     display: flex;
     justify-content: center;
-    padding: 50px;
 }
 
 .products .products-grid .product-item p {
@@ -59,6 +58,28 @@
     font-size: 20px;
     padding-top: 5px;
 }
+
+.products .show-items-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 80px 0;
+}
+
+.products .show-items-container .show-items {
+    padding: 16px 54px;
+    background-color: transparent;
+    border: 1px solid #0000001A;
+    border-radius: 62px; 
+    transition: background-color 0.3s ease;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+}
+
+.products .show-items-container .show-items a {
+    text-decoration: none;
+   color: #000000;
+}
+
 
 
 
