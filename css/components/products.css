@@ -80,6 +80,13 @@
    color: #000000;
 }
 
+.divider-line {
+    width: 100%;
+    margin: 20px 0;
+    height: 1px;
+    background-color: #0000001A; 
+}
+
 
 
 
