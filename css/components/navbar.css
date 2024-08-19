@@ -1,14 +1,17 @@
 .navbar {
     max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .navbar .navbar__content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 1200px;
+    justify-content: space-between;
+    max-width: 1240px;
+    width: 100%;
     padding: 20px;
-    margin-left: 50px;
+    margin: auto;
 }
 
 .navbar .navbar-links {
@@ -40,6 +43,7 @@
     border-radius: 30px;
     background: #F0F0F0;
     width: 50%;
+    width: 500px;
 }
 
 .navbar .search-input {
