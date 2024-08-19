@@ -1,0 +1,76 @@
+.customers {
+    max-width: 1200px;
+    margin: 80px auto 80px auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.customers h2 {
+    text-align: left;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-card {
+    border: 1px solid #0000001A;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+}
+
+.customers .reviews-container .review-card .review-header .rating {
+    display: flex;
+}
+
+.customers .reviews-container .review-card .review-header .rating .star-icon {
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #FFE500;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.customers .reviews-container .review-card .review-header .rating .star-icon::before {
+    content: "\2605";
+}
+
+.customers .reviews-container .review-card .review-header .rating .star-icon.active ~ .star-icon::before {
+    content: "\2606";
+}
+
+.customers .reviews-container .review-card .review-header .rating .rating:hover ~ .star-icon::before {
+    content: "\2605";
+}
+
+.customers .reviews-container .review-card .review-header .rating .rating .star-icon:hover ~ .star-icon::before {
+    content: "\2606";
+}
+
+.review-header {
+    margin-bottom: 15px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.review-card p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #00000099;
+}
+
+
+
